@@ -16,6 +16,7 @@ namespace BMI
             MainPage = new BMI.MainPage();
         }
 
+
         protected override void OnStart()
         {
             // Handle when your app starts
