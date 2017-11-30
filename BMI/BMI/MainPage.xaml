@@ -7,18 +7,22 @@
         <StackLayout>
             <Label Text="身長を入力してください"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand"></Label>
-            
-                <Entry Text="160.0"
+                HorizontalOptions="CenterAndExpand"/>
+
+            <Entry Text="160.0"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand">
-                    
-                    
-                <BUTTON Text="BMIを計算"
+                HorizontalOptions="CenterAndExpand"
+                   x:Name="height"/>
+
+
+            <BUTTON Text="BMIを計算"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand"></BUTTON>
-            
-          />
+                HorizontalOptions="CenterAndExpand"
+                    x:Name="BMI_Button"
+                    Clicked="BMI_Button_Click"
+                    />
+
+            />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
